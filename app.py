@@ -15,7 +15,6 @@ import tempfile
 from datetime import datetime
 import subprocess
 from googletrans import Translator
-from flask import Flask, render_template, request
 import glob
 from unicodedata import normalize
 from docx2pdf import convert
